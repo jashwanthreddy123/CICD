@@ -6,6 +6,6 @@ RUN rm -rf /usr/share/nginx/html/*
 # Copy frontend files
 COPY . /usr/share/nginx/html/
 
-EXPOSE 80
+EXPOSE 5000
 
 CMD ["nginx", "-g", "daemon off;"]
